@@ -1,22 +1,108 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'quicksandbold_oblique';
+    src: url('quicksand_bold_oblique-webfont.eot');
+    src: url('quicksand_bold_oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand_bold_oblique-webfont.woff') format('woff'),
+         url('quicksand_bold_oblique-webfont.ttf') format('truetype'),
+         url('quicksand_bold_oblique-webfont.svg#quicksandbold_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+body {
+	background: #b6e6ff url(../img/skyline_2@2x.png) no-repeat;
+	background-size:contain;
+}
+.container {
+	max-width:970px; 
+}
+.text_container {
+	background:rgba(255,255,255,1);
+}
+#annie {
+	background:rgba(255,255,255,0.65);
+	padding-top: 15px;
+}
+#annie {
+	text-align: center;
+}
+#annie h1 {
+	/*background: url(../img/annielogo.png) no-repeat;
+	background-size:cover;
+	width:720px;
+	height:331px;
+	text-indent: -9999px;*/
+	margin:0 auto;
+}
+#annie h2 {
+	/*background: url(../img/gotlands_musikalkompani.png) no-repeat;
+	background-size:cover;
+	width:420px;
+	height:63px;
+	text-indent: -9999px;*/
+	margin:0 auto;
+}
+h2, 
+p, 
+tr, 
+td, 
+th {
+	font-family: 'quicksandbold_oblique', helvetica, arial, sans-serif;
+	text-align: center;
+}
+.text h2 {
+	color:#002344;
+	border-top:3px solid #002344;
+	border-bottom:3px solid #002344;
+	display: inline-block;
+	margin-bottom:20px;
+	text-align:center;
+	text-transform: uppercase;
+	padding:5px 0 3px;
+-webkit-transform:rotate(-2deg);
+-moz-transform:rotate(-2deg);
+transform:rotate(-2deg);
+}
+.text p {
+	color:#002344;
+	/*	text-shadow: 1px 1px 0px rgb(255, 255, 255);*/
+	font-size:18px;
+}
+.text {
+/*	background-color:#47bffd;*/
+text-align: center;
+margin-bottom:30px;
+}
+time {
+	display: none;
+}
+@media (min-width: 420px) {
+	/*body {
+		background: #b6e6ff url(../img/skyline_2.jpg) no-repeat center center;
+		background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+	}*/
+}
+@media (min-width:768px) {
+	body {
+		background: #b6e6ff url(../img/skyline_2.jpg) no-repeat center center;
+		background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+	}
+	#annie {
+		padding-top:40px;
+	} 
+	.text p {
+		font-size:22px;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
